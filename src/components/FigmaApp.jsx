@@ -42,44 +42,44 @@ const FigmaApp = () => {
       <div className={isLight? 'darkb':'lightb'}>
         <div style={{display:'flex' , justifyContent:'space-between'}}><p style={{fontSize:'12px',marginBottom:"20px"}}>Active Users</p><p style={{fontSize:'10px'}}> For August 2022</p></div>
         <div className='profile'>
-        <Image borderRadius='full' boxSize='150px' src='https://bit.ly/dan-abramov' width='40px' height='40px' alt='Dan Abramov'/>
+        <Image borderRadius='30px' boxSize='150px' src='https://bit.ly/dan-abramov' width='40px' height='40px' alt='Dan Abramov'/>
         <div>
-          <p style={{fontSize:'13px'}}>Nrupal Dev</p>
+          <p style={{fontSize:'13px'}}>Manish Singh</p>
           <p style={{fontSize:'11px',color:'grey'}}>Copenhangen,Denmark</p>
         </div>
         <i class="fa-solid fa-ellipsis" style={{float:'right'}}></i>
         </div>
         <Slider aria-label='slider-ex-1' defaultValue={60}><SliderTrack><SliderFilledTrack /></SliderTrack><SliderThumb /></Slider>
-        <div className='bottom'><p>Professional 15</p>
-        <p>4723 Points</p></div>
+        <div className='bottom'><p>Professional 5</p>
+        <p>1000 Points</p></div>
 
          {/* 1st profile */}
  <hr />
         <div className='profile'>
         <Image borderRadius='full' boxSize='150px' src='https://bit.ly/dan-abramov' width='40px' height='40px' alt='Dan Abramov'/>
         <div>
-          <p style={{fontSize:'13px'}}>Sandya</p>
+          <p style={{fontSize:'13px'}}>Soumya Ojha</p>
           <p style={{fontSize:'11px',color:'grey'}}>Copenhangen,Denmark</p>
         </div>
         <i class="fa-solid fa-ellipsis" style={{marginLeft:'30px'}}></i>
         </div>
         <Slider aria-label='slider-ex-1' defaultValue={60}><SliderTrack><SliderFilledTrack /></SliderTrack><SliderThumb /></Slider>
-        <div className='bottom'><p>Professional 11</p>
-        <p>2339 Points</p></div>
+        <div className='bottom'><p>Professional 10</p>
+        <p>2000 Points</p></div>
 
  {/* 1st profile */}
 <hr />
         <div className='profile'>
         <Image borderRadius='full' boxSize='150px' src='https://bit.ly/dan-abramov' width='40px' height='40px' alt='Dan Abramov'/>
         <div>
-          <p style={{fontSize:'13px'}}>Elon Tusk</p>
+          <p style={{fontSize:'13px'}}>Satyam Babu</p>
           <p style={{fontSize:'11px',color:'grey'}}>California,USA</p>
         </div>
         <i class="fa-solid fa-ellipsis" style={{marginLeft:'30px'}}></i>
         </div>
         <Slider aria-label='slider-ex-1' defaultValue={60}><SliderTrack><SliderFilledTrack /></SliderTrack><SliderThumb /></Slider>
-        <div className='bottom'><p>Professional 6</p>
-        <p>1884 Points</p></div>
+        <div className='bottom'><p>Professional 16</p>
+        <p>1869 Points</p></div>
         
       </div>
       
